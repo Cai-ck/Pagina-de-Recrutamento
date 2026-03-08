@@ -22,5 +22,5 @@ O projeto ainda está em **fase de desenvolvimento**, que vai ser atualizado di�
 | Dia | Desafio | Status | Commit |
 | :---: | :--- | :---: | :---: |
 | 01 | Layout Navbar (Flexbox) | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/8f19a080b8d7df867788c05dc8e494369cf6deb5) 
-| 02 | Seção "Sobre Nós" | ✅ Concluído | [Ver Commit]
+| 02 | Seção "Sobre Nós" | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/e50283e7f4fab17e31847306a0bb264c0392011e)
 | 03 | **A Definir** | **Em breve** | **[Em breve]** 
