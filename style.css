@@ -10,6 +10,7 @@
     --main-color: #8E2424;
     --text-color: #667085;
     --title-color: #101828;
+    --other-color: #8E24240D;
 }
 
 /* flexbox navbar */
@@ -105,7 +106,7 @@
     text-align: center;
 }
 
-.about-container {
+.container-central {
     width: 792px;
     display: flex;
     flex-direction: column;
@@ -113,15 +114,15 @@
     gap: 12px;
 }
 
-.subtitle{
+.section-badge{
     width: 78px;
-    height: 24px;
     color: var(--main-color);
     font-weight: 600;
+    font-weight: 14px;
     font-size: 14px;
 }
 
-.heading {
+.main-title {
     width: 792px;
     color: var(--title-color);
     font-size: 36px;
@@ -129,7 +130,7 @@
     line-height: 44px;
 }
 
-.content {
+.main-description {
     width: 792px;
     color: var(--text-color);
     font-size: 28px;
@@ -138,54 +139,75 @@
 }
 
 /* Flexbox Métricas */
-
-.metricas-section{
+.metricas-section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1280px;
-    max-height: 192px;
-    margin: 64px auto;
-    gap: 32px;
-    
-}
-
-.first-metric, .second-metric, .third-metric, .fourth-metric{
-    display: flex;
-    flex: 1;
-    min-width: 0;
-    min-height: 0;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    max-width: 1216px; 
+    margin: 96px auto; 
     padding: 0 32px;
     gap: 32px;
 }
 
+.metric-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
 
-.subtitle{
-    width: auto;
+.metric-number {
+    flex: 1;
+    display: flex;
     color: var(--main-color);
     font-size: 60px;
+    font-weight: 600;
     line-height: 72px;
-    text-align: center;
-    align-items: center;
+    margin-bottom: 12px;
+    text-align: left;
 }
 
-.heading{
-    width: auto;
+.metric-label {
     color: var(--title-color);
     font-size: 18px;
+    font-weight: 600;
     line-height: 28px;
-    text-align: center;
+    margin-bottom: 8px;
 }
 
-.content{
-    width: auto;
+.metric-text {
     color: var(--text-color);
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    font-weight: 400;
 }
 
+.vagas-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    background-color: #FFFFFF;
+}
+
+.badge-vagas {
+    background-color: var(--other-color);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.vagas-img {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 64px; 
+    border-radius: 8px;
+}
+
+.container-central {
+    max-width: 768px; 
+    margin: 0 auto;
+    text-align: center;
+}
