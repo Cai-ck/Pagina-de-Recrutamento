@@ -23,6 +23,6 @@ O projeto ainda está em **fase de desenvolvimento**, que vai ser atualizado di�
 | :---: | :--- | :---: | :---: |
 | 01 | Layout Navbar (Flexbox) | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/8f19a080b8d7df867788c05dc8e494369cf6deb5) 
 | 02 | Seção "Sobre Nós" | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/e50283e7f4fab17e31847306a0bb264c0392011e)
-| 03 | Desenvolver Cabeçalho | ⚙️ Atualizar | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/0039598b64cbd5a0648afec60715066a991bd945)
+| 03 | Desenvolver Cabeçalho |⚙️ Atualizar | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/0039598b64cbd5a0648afec60715066a991bd945)
 | 04 | Seção "Vagas Abertas" | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/0039598b64cbd5a0648afec60715066a991bd945)
-| 05 | Seção "Sobre as Vagas" | ✅ Concluído | **[Em Breve]**
+| 05 | Seção "Sobre as Vagas" | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/db90c643370a13b0967ffc02fb60c8199fa30fd1)
