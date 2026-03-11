@@ -25,3 +25,4 @@ O projeto ainda está em **fase de desenvolvimento**, que vai ser atualizado di�
 | 02 | Seção "Sobre Nós" | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/e50283e7f4fab17e31847306a0bb264c0392011e)
 | 03 | Desenvolver Cabeçalho | ⚙️ Atualizar | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/0039598b64cbd5a0648afec60715066a991bd945)
 | 04 | Seção "Vagas Abertas" | ✅ Concluído | [Ver Commit](https://github.com/Cai-ck/Pagina-de-Recrutamento/commit/0039598b64cbd5a0648afec60715066a991bd945)
+| 05 | Seção "Sobre as Vagas" | ✅ Concluído | **[Em Breve]**
