@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 /*Todos, tamanhos, espaçamentos e cores estão no figma produzido pela Alura.*/
@@ -154,7 +155,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     text-align: left;
 }
 
@@ -203,7 +204,7 @@
 
 .vagas-img {
     max-width: 100%; 
-    height: auto;
+    font-weight: auto;
     margin-top: 64px; 
     border-radius: 8px;
 }
@@ -261,6 +262,49 @@
 }
 
 .vagas-infos span{
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+/*Flexbox Depoimentos*/
+
+.section-testimonials{
+    width: 100%;
+    max-width: 1280px; 
+    margin: 96px auto; 
+    padding: 0 32px;
+}
+
+.category-testimonials{
+    background-color: var(--other-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.title-testimonials{
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.brief-testimonials{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    color: var(--title-color);
+    max-width: 900px;
+}
+
+.julia-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--title-color);
+    margin-bottom: -24px;
+}
+.julia-card{
     font-size: 16px;
     color: var(--text-color);
 }
