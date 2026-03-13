@@ -281,10 +281,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 32px;
+    gap: 40px;
 }
 
 .title-testimonials{
+    margin-top: 24px;
     font-size: 14px;
     color: var(--main-color);
     font-weight: 600;
@@ -307,4 +308,68 @@
 .julia-card{
     font-size: 16px;
     color: var(--text-color);
+    margin-bottom: 22px;
+}
+
+/*Flexbox Enviar email*/
+.section-sendemail{
+    margin-top: 16px;
+    background-color: #F9FAFB;
+    width: 100%;
+    max-width: 1280px; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 96px auto; 
+    padding: 0 32px;
+}
+
+.title-sendemail{
+    font-size: 36px;
+    font-size: 44px;
+}
+.text-sendemail{
+    margin-top: 12px;
+    line-height: 30px;
+    font-size: 20px;
+    color: var(--text-color);
+    gap: 10px;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.input-email{
+    padding: 16px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    width: 350px;
+    outline: none;
+}
+
+.btn-cadastrar{
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-cadastrar:hover{
+    background-color: #6b1b1b;
+}
+
+.footer-copy{
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 16px;
 }
